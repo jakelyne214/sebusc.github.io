@@ -5,7 +5,7 @@ body {
 }
 
 .cartelera {
-    background-color: #ffffff;
+    background-color: #e4d4d4;
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -16,7 +16,13 @@ body {
 h1 {
     color: #333;
 }
-
+.titulo1{
+    font-family: "cursive"; /* Cambia la fuente según tus preferencias */
+    background-image: linear-gradient(to right, rgb(10, 10, 10), rgb(7, 7, 7), rgb(18, 18, 19), rgb(12, 11, 12), rgb(15, 15, 15), rgb(20, 20, 20), rgb(23, 23, 24));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 img {
     max-width: 300px; /* Cambia este valor para ajustar el tamaño de la imagen */
     display: block;
